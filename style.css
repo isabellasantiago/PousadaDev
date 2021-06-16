@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     position: fixed;
     top: 0;
@@ -41,7 +43,7 @@ header nav{
     margin: 10px;
 }
 
-main{
+.primeiraTela{
     width: 100%;
     height: 100vh;
     
@@ -55,14 +57,12 @@ main{
     color: #fff;
 }
 
-main div{
+
+.primeiraTelaTexto{
     width: 400px;
     height: 170px;
     background-color: #49997cbd;
     align-self: center;
-}
-
-.primeiraTela{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -91,7 +91,7 @@ main div{
 }
 
 
-.sessao-quartos {
+.sessao-quartos{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -204,12 +204,10 @@ footer .itens{
 footer #copy{
     width: 100%;
     height: 50px;
+    border-top: 1px solid #316b56;
     align-self: flex-end;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 10px auto 20px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
-
-
-
-
